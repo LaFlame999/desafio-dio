@@ -1,5 +1,6 @@
 #include <stdio.h>
 #include <string.h>
+#include<stdlib.h>
 
 int main(){
     char nomeHeroi[25];
@@ -41,5 +42,6 @@ int main(){
     }
 
     printf("O Heroi %s esta no nivel %s\n", nomeHeroi, nivelHeroi);
+    system("pause");
     return 0;
 }
